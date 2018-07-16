@@ -8,6 +8,8 @@ class App < Sinatra::Base
   end
 
   get '/' do
+    @item = params[:item]
+    binding.pry
     erb :index
   end
   
