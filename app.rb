@@ -12,5 +12,5 @@ class App < Sinatra::Base
     binding.pry
     erb :index
   end
-  
+
 end
